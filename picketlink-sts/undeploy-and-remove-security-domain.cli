@@ -1,6 +1,0 @@
-# Connect to controller 
-connect
-
-undeploy jboss-picketlink-sts.war
-/subsystem=security/security-domain=picketlink-sts/:remove
-
