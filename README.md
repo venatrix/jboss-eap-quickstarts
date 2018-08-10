@@ -6,14 +6,17 @@
 
 Create two new projects
 ```
+oc login -u admin
 oc new-project dev
 oc new-project stage
 ```
-if you are creating projects from admin user, provide edit access to the users who are going to use this project
+creating projects from admin user, provide edit access to the users who are going to use this project
 I am using two users 1) developer 2) tester
 
-developer is using project dev & tester is using project stage
-oc adm policy add-role-to-user edit < username > -n < projectname >
+`developer` is using project `dev` & `tester` is using project `stage`
+
+`oc adm policy add-role-to-user edit < username > -n < projectname >`
+
 ```
 oc adm policy add-role-to-user edit developer -n dev
 oc adm policy add-role-to-user edit tester -n stage
