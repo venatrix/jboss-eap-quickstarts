@@ -36,7 +36,7 @@ oc login to developer and create an application,
 ##### create app
 
 
-#### In this demo im using the TEMPLATE JBoss EAP 6.4 (no https) , git url is https://github.com/venatrix/jboss-eap-quickstarts.git  and the  application name is myapp
+#### In this demo im using the TEMPLATE JBoss EAP 6.4 (no https) , git url is https://github.com/venatrix/jboss-eap-quickstarts.git  and the  application name is `myapp`
 
 After creating myapp application check the images streams from dev project and tag the image stream with the tag :promote
 
