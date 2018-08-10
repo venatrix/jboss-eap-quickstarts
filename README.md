@@ -63,7 +63,7 @@ create application with the image:promote
 
 ```
 oc login tester
-oc new-app /dev/myapp:promote
+oc new-app dev/myapp:promote
 ```
 
 If you are updating your build in myapp - dev project , it will create a new image stream for the new build , if you want pass the update image to teh tester - stage project
