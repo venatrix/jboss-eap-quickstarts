@@ -7,7 +7,7 @@
 Create two new projects
 ```
 oc new-project dev
-oc new project stage
+oc new-project stage
 ```
 if you are creating projects from admin user, provide edit access to the users who are going to use this project
 I am using two users 1) developer 2) tester
