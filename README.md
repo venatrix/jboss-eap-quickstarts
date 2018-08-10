@@ -20,6 +20,7 @@ oc adm policy add-role-to-user edit tester -n stage
 ```
 
 provide view access to user tester to dev project
+
 `oc adm policy add-role-to-user view tester -n dev`
 
 provide image pull access to stage project from dev project, so it can pull images from dev project
