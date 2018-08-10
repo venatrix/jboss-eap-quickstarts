@@ -25,7 +25,7 @@ provide view access to user tester to dev project
 
 provide image pull access to stage project from dev project, so it can pull images from dev project
 
-`oc policy add-role-to-group system:image-puller system:serviceaccount:stage:default -n dev`
+`oc policy add-role-to-group system:image-puller system:serviceaccounts:stage -n dev`
 
 oc login to developer and create an application,
 
