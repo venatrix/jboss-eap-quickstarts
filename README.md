@@ -54,7 +54,7 @@ eg: oc tag 72.30.0.0:5000/dev/myapp@sha256:jdfnkjfne5wefef54ef5ef13f165f1 dev/my
 ```
 
 now login to tester
-create application with this image:promote
+create application with the image:promote
 
 ```
 oc login tester
